@@ -5,6 +5,8 @@
 }
 
 /* navegação */
+
+
 header {
     background-color: #3FA110;
     height: 49.7rem;
@@ -23,7 +25,7 @@ header {
 
 .lista {
     list-style: none;
-    padding: 50px 0;
+    padding: 3.125rem 0;
     margin-top: 40%;
 }
 .link {
@@ -88,7 +90,7 @@ article {
     width: 50rem;
     
 }
-/* ------------------------------------- */
+
 /* conhecimentos e objetivos */
 
 #conhecimentos {
@@ -102,31 +104,25 @@ article {
     position: relative;
     top: 20%;
     list-style-type:lower-latin;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 6.25rem;
 }
 
 .numeros {
-    padding: 25px;
+    padding: 1.5625rem;
     font-size: 2rem;
+    text-align: justify;
+    width: 50rem;
 }
 
 .bolinha {
     position: relative;
     top: 20%;
     list-style-type:disc;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 6.25rem;
 }
 
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------ */
+
 footer {
     background-color: #3FA110;
     position: absolute;
