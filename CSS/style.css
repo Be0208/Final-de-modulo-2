@@ -1,7 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    
+    padding: 0;
 }
 
 /* navegação */
@@ -19,7 +19,7 @@ header {
 .img-be {
     border-radius: 50%;
     border: #D7E6C8 solid 5px;
-    width: 12rem;
+    width: 75%;
     
 }
 
@@ -49,7 +49,7 @@ a:link {
 
 #conteudo {
     background-color: #D7E6C8;
-    height: 49.7rem;
+    height: 100%;
     width: 80%;
     margin: 0;
     position: absolute;
@@ -95,33 +95,34 @@ article {
 
 #conhecimentos {
     width: 80%;
-    height: 49.7rem;
+    height: 100%;
     background-color: #D7E6C8;
     float: right;
+    
 }
 
 .sec {
     position: relative;
     top: 20%;
     list-style-type:lower-latin;
-    margin: 0 0 0 6.25rem;
-}
-
-.numeros {
-    padding: 1.5625rem;
-    font-size: 1.5rem;
-    text-align: justify;
-    width: 50rem;
+    padding: 12% 0 12% 10%;
 }
 
 .bolinha {
     position: relative;
     top: 20%;
     list-style-type:disc;
-    margin: 0 0 0 6.25rem;
+    padding: 18% 0 18% 5%;
 }
 
-/* ------------------------------------------ */
+.numeros {    /* conteudo */
+    padding: 3%;
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 70%;
+}
+
+/* ------------FOOTER-------------------- */
 
 footer {
     background-color: #3FA110;
