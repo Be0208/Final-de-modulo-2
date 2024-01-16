@@ -4,30 +4,44 @@
     padding: 0;
 }
 
-/* navegação */
+html, body {
+    height: 100%;
+}
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+
+
+
+/* navegação */
 
 header {
     background-color: #3FA110;
-    height: 100%;
-    width: 20%;
-    margin: 0;
-    position: absolute;
-    left: 0;
+    height: 100vh;
 }
 
 .img-be {
     border-radius: 50%;
     border: #D7E6C8 solid 5px;
     width: 75%;
-    
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .lista {
     list-style: none;
-    padding: 3.125rem 0;
-    margin-top: 40%;
+    padding-top: 3.125rem;
 }
+
 .link {
     margin-top: 2rem;
     font-size: large;
@@ -37,27 +51,27 @@ header {
 a {
     color: white;
 }
+
 a:hover {
-    opacity: 50%;
-    text-decoration: none
+    opacity: 0.5;
+    text-decoration: none;
 }
+
 a:link {
     text-decoration: none;
 }
 
-/* conteudo index */
+/* conteudo */
 
-#conteudo {
+#conhecimentos,
+#objetivos {
     background-color: #D7E6C8;
-    height: 100%;
-    width: 80%;
-    margin: 0;
-    position: absolute;
-    right: 0;
+    height: 100vh;
 }
+
 article {
     margin-bottom: 2rem;
-    margin-left: 4rem;
+    padding: 1rem;
 }
 
 .email {
@@ -65,69 +79,34 @@ article {
     font-size: 1rem;
 }
 
-.dados {
-    position: relative;
-    top: 10rem;
-    width: 25rem;
+.dados,
+.descrição,
+.social {
+    padding: 2rem;
 }
 
 .dados h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-
 }
 
-.descrição {
-    position: relative;
-    top: 12rem;
-    width: 70%;
-
-}
-
-.social {
-    position: relative;
-    top: 12rem;
-    width: 50rem;
-    
-}
-
-/* conhecimentos e objetivos */
-
-#conhecimentos {
-    width: 80%;
-    height: 100%;
-    background-color: #D7E6C8;
-    float: right;
-    
-}
-
-.sec {
-    position: relative;
-    top: 20%;
-    list-style-type:lower-latin;
-    padding: 12% 0 12% 10%;
-}
-
+.sec,
 .bolinha {
-    position: relative;
-    top: 20%;
-    list-style-type:disc;
-    padding: 18% 0 18% 5%;
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.numeros {    /* conteudo */
+.numeros {
     padding: 3%;
     font-size: 1.5rem;
     text-align: justify;
-    width: 70%;
 }
 
-/* ------------FOOTER-------------------- */
+/* Footer */
 
 footer {
     background-color: #3FA110;
-    position: absolute;
-    bottom: 0;
     text-align: center;
-    width: 100%;
+    padding: 1rem;
+    color: white;
 }
